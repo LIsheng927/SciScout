@@ -1,0 +1,28 @@
+# 密钥/本地配置 —— 绝对不能进git
+backend/.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# 大文件/本地生成物 —— LoRA训练产物体积大(单个checkpoint里optimizer.pt有142MB,
+# 超过GitHub单文件100MB硬限制),而且这些是"能重新跑脚本生成"的东西,不是源代码,
+# 不该占版本库空间。README里会写清楚怎么用 scripts/19_train_lora.py 重新生成。
+backend/models/
+backend/qdrant_data/
+
+# IDE
+.vscode/
+.idea/
+
+# 测试脚本产生的临时下载文件
+backend/temp_paper.pdf

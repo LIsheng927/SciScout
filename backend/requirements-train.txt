@@ -1,0 +1,11 @@
+# LoRA 微调专用依赖,和线上服务的 requirements.txt 分开管理
+# (训练只在本机 GPU 上跑一次性脚本,不需要跟着后端服务一起部署)
+#
+# torch 单独装,不写在这里:因为要匹配你显卡驱动对应的 CUDA 版本,
+# 直接用官方命令装,比如(先用 nvidia-smi 看右上角 CUDA Version,例如 12.4 就选 cu124):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+transformers>=4.44
+peft>=0.12
+trl>=0.9
+accelerate>=0.33
+datasets>=2.20

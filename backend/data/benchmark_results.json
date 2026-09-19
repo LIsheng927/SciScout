@@ -1,0 +1,590 @@
+{
+  "summary": {
+    "n_examples": 24,
+    "format_valid_rate": 1.0,
+    "subtask_count_in_range_rate": 1.0,
+    "avg_alignment_score_all": 0.8326,
+    "n_style_mismatch_flagged": 2,
+    "avg_alignment_score_excl_style_mismatch": 0.8543,
+    "avg_latency_sec": 11.686,
+    "local_model_call_count": 24,
+    "estimated_cost_usd": 0.0
+  },
+  "per_example": [
+    {
+      "question": "最近的研究中，图神经网络在知识图谱问答中的应用效果如何？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 13.99,
+      "alignment_score": 0.9211,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "recent studies on graph neural networks for knowledge graph question answering",
+        "comparison of graph neural networks and traditional methods in knowledge graph question answering",
+        "applications of graph neural networks in knowledge graph question answering systems",
+        "challenges faced by graph neural networks in knowledge graph question answering",
+        "future trends in graph neural networks for knowledge graph question answering"
+      ],
+      "teacher_subtasks": [
+        "Graph Neural Networks applications in knowledge graph question answering 2023",
+        "comparison of Graph Neural Networks and traditional methods in knowledge graph question answering",
+        "latest advancements in Graph Neural Networks for knowledge graph question answering",
+        "case studies of Graph Neural Networks in knowledge graph question answering",
+        "challenges of using Graph Neural Networks in knowledge graph question answering"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "图神经网络与传统知识图谱方法相比，具有哪些优势和劣势？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.2,
+      "alignment_score": 0.5793,
+      "style_mismatch_suspected": true,
+      "local_subtasks": [
+        "graph neural networks advantages over traditional knowledge graph methods",
+        "limitations of graph neural networks in knowledge graphs",
+        "comparison of graph neural networks and traditional knowledge graph techniques",
+        "recent advancements in graph neural networks for knowledge representation",
+        "case studies of graph neural networks applied to knowledge graphs"
+      ],
+      "teacher_subtasks": [
+        "图神经网络 优势 劣势 知识图谱",
+        "图神经网络 知识图谱 应用案例",
+        "图神经网络 传统知识图谱 方法比较",
+        "图神经网络 最新研究 进展",
+        "知识图谱 传统方法 优势 劣势"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "自动语音识别（ASR）中的自适应算法是怎么工作的？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.73,
+      "alignment_score": 0.844,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "adaptive algorithms in automatic speech recognition (ASR)",
+        "techniques for improving ASR performance through adaptive algorithms",
+        "case studies of adaptive ASR systems",
+        "recent advancements in adaptive ASR techniques",
+        "comparison of traditional and adaptive ASR methods"
+      ],
+      "teacher_subtasks": [
+        "adaptive algorithms in automatic speech recognition",
+        "comparison of adaptive algorithms in ASR systems",
+        "applications of adaptive algorithms in speech recognition",
+        "recent advancements in adaptive algorithms for ASR",
+        "challenges in implementing adaptive algorithms in ASR"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "针对特定领域的定制化大语言模型有哪些研究成果？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.7,
+      "alignment_score": 0.796,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "customized large language models in healthcare",
+        "customized large language models for education",
+        "applications of customized large language models in finance",
+        "recent advancements in customizing large language models",
+        "comparison of traditional and customized large language models"
+      ],
+      "teacher_subtasks": [
+        "customized large language models in specific domains research papers",
+        "applications of domain-specific large language models",
+        "comparative studies of domain-specific language models vs general models",
+        "latest advancements in customized large language models 2023",
+        "challenges in developing domain-specific large language models"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "在异构环境中，如何优化分布式机器学习的资源分配和任务调度？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 10.38,
+      "alignment_score": 0.8526,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "distributed machine learning resource allocation in heterogeneous environments",
+        "task scheduling algorithms for distributed machine learning in heterogeneous systems",
+        "performance evaluation of resource allocation strategies in distributed ML",
+        "case studies on optimizing resource allocation in distributed ML applications",
+        "recent advancements in distributed machine learning resource management"
+      ],
+      "teacher_subtasks": [
+        "resource allocation strategies in distributed machine learning heterogeneous environments",
+        "task scheduling algorithms for distributed machine learning in heterogeneous systems",
+        "performance comparison of resource allocation methods in distributed machine learning",
+        "recent advancements in distributed machine learning for heterogeneous environments",
+        "case studies of distributed machine learning applications in heterogeneous environments"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "现有的AI安全标准和框架有哪些局限性，如何改进？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 10.66,
+      "alignment_score": 0.8802,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "limitations of AI safety standards and frameworks",
+        "recent advancements in AI safety measures",
+        "comparison of AI safety frameworks across industries",
+        "challenges in implementing AI safety regulations",
+        "future directions for improving AI safety standards"
+      ],
+      "teacher_subtasks": [
+        "limitations of current AI safety standards and frameworks",
+        "recent improvements in AI safety standards",
+        "comparison of AI safety frameworks",
+        "best practices for enhancing AI safety",
+        "case studies on AI safety framework failures"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "在大规模图像数据集上，如何有效进行特征提取？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.05,
+      "alignment_score": 0.846,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "feature extraction methods for large-scale image datasets",
+        "deep learning techniques in feature extraction for images",
+        "comparison of traditional and deep learning approaches in image feature extraction",
+        "applications of feature extraction in large-scale image databases",
+        "recent advancements in feature extraction algorithms for big data"
+      ],
+      "teacher_subtasks": [
+        "large scale image dataset feature extraction techniques",
+        "comparison of feature extraction methods for large image datasets",
+        "deep learning approaches for feature extraction in large image datasets",
+        "applications of feature extraction in large scale image datasets",
+        "recent advancements in feature extraction for large image datasets"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "有哪些新兴的计算机视觉算法能够提升实时处理能力？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.84,
+      "alignment_score": 0.8262,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "recent advancements in computer vision algorithms for real-time processing",
+        "comparison of traditional vs modern computer vision techniques for real-time systems",
+        "applications of deep learning in real-time computer vision tasks",
+        "challenges in implementing real-time computer vision algorithms",
+        "future trends in computer vision for real-time applications"
+      ],
+      "teacher_subtasks": [
+        "emerging computer vision algorithms for real-time processing 2023",
+        "comparison of real-time computer vision algorithms",
+        "applications of real-time computer vision algorithms in industry",
+        "hardware acceleration for real-time computer vision",
+        "latest trends in real-time computer vision research"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "如何利用图神经网络提升推荐系统的效果？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 10.97,
+      "alignment_score": 0.9024,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "graph neural networks for recommendation systems",
+        "comparison of graph neural networks and traditional methods in recommendation",
+        "recent advancements in graph neural networks for recommendation",
+        "applications of graph neural networks in personalized recommendations",
+        "challenges in implementing graph neural networks for recommendation"
+      ],
+      "teacher_subtasks": [
+        "Graph neural networks in recommendation systems",
+        "Comparative analysis of graph neural networks and traditional recommendation algorithms",
+        "Recent advancements in graph neural networks for recommendation",
+        "Case studies of graph neural networks applied in real-world recommendation systems",
+        "Challenges and limitations of using graph neural networks in recommendation systems"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "面对噪声环境，语音增强技术有哪些有效的方法？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.21,
+      "alignment_score": 0.8234,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "noise reduction techniques for speech enhancement in noisy environments",
+        "machine learning approaches for voice enhancement in noisy audio",
+        "comparison of traditional and modern methods in speech enhancement",
+        "applications of noise robust speech enhancement systems",
+        "recent advancements in speech enhancement for noisy environments"
+      ],
+      "teacher_subtasks": [
+        "noise robust speech enhancement techniques",
+        "deep learning for speech enhancement in noisy environments",
+        "comparison of speech enhancement algorithms in noisy conditions",
+        "real-time speech enhancement methods for noisy environments",
+        "applications of speech enhancement in noisy environments"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "扩散模型的理论基础是什么，它相较于GAN有什么优势？",
+      "format_valid": true,
+      "subtask_count": 4,
+      "count_in_range": true,
+      "latency_sec": 7.96,
+      "alignment_score": 0.6078,
+      "style_mismatch_suspected": true,
+      "local_subtasks": [
+        "diffusion models theoretical foundations",
+        "advantages of diffusion models over GANs",
+        "applications of diffusion models in image generation",
+        "recent advancements in diffusion models"
+      ],
+      "teacher_subtasks": [
+        "扩散模型 理论基础 综述",
+        "扩散模型 相较于GAN 优势 比较",
+        "扩散模型 应用案例",
+        "GAN 最新进展 2023",
+        "扩散模型 生成效果 对比 GAN"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "在多模态学习中，模型压缩的策略如何调整以适应不同模态的信息？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 10.94,
+      "alignment_score": 0.8511,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "model compression strategies for multimodal learning",
+        "impact of modal information on model compression techniques",
+        "comparison of model compression methods in multimodal learning",
+        "recent advancements in multimodal learning and model compression",
+        "applications of model compression in multimodal learning systems"
+      ],
+      "teacher_subtasks": [
+        "multi-modal learning model compression strategies",
+        "adaptive model compression techniques for different modalities",
+        "comparison of model compression methods in multi-modal learning",
+        "recent advancements in multi-modal model compression",
+        "applications of compressed multi-modal models"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "当前AI在化学合成路径预测中的应用现状如何？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.46,
+      "alignment_score": 0.8728,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "current applications of AI in chemical synthesis pathway prediction",
+        "machine learning methods used for predicting chemical synthesis pathways",
+        "comparison of AI and traditional methods in chemical synthesis pathfinding",
+        "recent advancements in AI techniques for chemical synthesis path prediction",
+        "case studies on AI-driven chemical synthesis optimization"
+      ],
+      "teacher_subtasks": [
+        "AI applications in chemical synthesis pathway prediction 2023",
+        "machine learning methods for predicting chemical synthesis pathways",
+        "comparison of AI methods in chemical synthesis pathway prediction",
+        "case studies of AI in chemical synthesis pathway prediction",
+        "future trends in AI for chemical synthesis pathway prediction"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "怎样评估AI系统在长时间运行后的安全性和稳定性？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.35,
+      "alignment_score": 0.7187,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "long-term evaluation methods for AI systems safety and stability",
+        "case studies on long-term performance of AI systems in real-world applications",
+        "recent advancements in monitoring techniques for AI system reliability",
+        "comparison of traditional vs modern approaches to assessing AI system robustness",
+        "impact of data quality on the security and stability of AI systems over time"
+      ],
+      "teacher_subtasks": [
+        "AI system long-term safety assessment methodologies",
+        "AI system stability analysis over time",
+        "case studies on AI system failures after prolonged use",
+        "regulatory standards for long-term AI system operation",
+        "latest advancements in AI reliability and safety"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "有哪些成功的案例展示了具身智能在医疗机器人中的应用？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.5,
+      "alignment_score": 0.8072,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "successful cases of embodied intelligence in medical robots",
+        "applications of embodied intelligence in healthcare robotics",
+        "case studies of robotic telepresence in healthcare",
+        "emotional AI integration in medical robots",
+        "challenges and limitations of embodied intelligence in medical robots"
+      ],
+      "teacher_subtasks": [
+        "embodied intelligence applications in medical robotics case studies",
+        "successful medical robots using embodied intelligence",
+        "recent advancements in embodied intelligence for healthcare robotics",
+        "comparative analysis of embodied intelligence in medical robots vs traditional robots",
+        "real-world applications of embodied intelligence in healthcare robotics"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "在智能交通系统中，时序数据预测的研究进展是什么？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 13.54,
+      "alignment_score": 0.769,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "recent advancements in time series data prediction for intelligent transportation systems",
+        "comparison of machine learning techniques used in traffic flow forecasting",
+        "applications of time series analysis in smart cities",
+        "challenges in predicting traffic patterns using historical data",
+        "impact of artificial intelligence on traffic flow prediction accuracy"
+      ],
+      "teacher_subtasks": [
+        "recent advances in time series forecasting for intelligent transportation systems",
+        "comparison of time series forecasting methods in traffic prediction",
+        "applications of time series forecasting in smart traffic management",
+        "machine learning techniques for time series forecasting in transportation",
+        "impact of big data on time series forecasting in intelligent transportation systems"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "推荐系统的可解释性研究现状如何，存在哪些挑战？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.51,
+      "alignment_score": 0.867,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "current state of explainability in recommendation systems",
+        "challenges in explaining recommendations in recommendation systems",
+        "recent advancements in explainable AI for recommendation systems",
+        "case studies on explainable recommendation systems",
+        "comparison of traditional vs explainable recommendation algorithms"
+      ],
+      "teacher_subtasks": [
+        "current state of explainability in recommendation systems",
+        "challenges in explainable recommendation systems",
+        "recent advancements in explainable recommendation systems",
+        "comparison of explainability methods in recommendation systems",
+        "user perception of explainability in recommendation systems"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "分布式机器学习系统的可解释性研究进展如何？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.8,
+      "alignment_score": 0.8928,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "recent advancements in explainability of distributed machine learning systems",
+        "comparison of interpretability techniques in distributed vs centralized machine learning",
+        "applications of explainable AI in distributed machine learning",
+        "challenges in achieving explainability in distributed ML systems",
+        "future trends in explainable AI for distributed machine learning"
+      ],
+      "teacher_subtasks": [
+        "recent advancements in explainability of distributed machine learning systems",
+        "methods for improving interpretability in distributed machine learning",
+        "comparison of explainability techniques in distributed vs centralized machine learning",
+        "applications of explainable distributed machine learning in real-world scenarios",
+        "challenges in achieving explainability in distributed machine learning systems"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "如何评估时序数据预测模型的性能与准确性？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.35,
+      "alignment_score": 0.8489,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "time series forecasting model performance evaluation metrics",
+        "comparison of time series forecasting methods accuracy",
+        "recent advancements in time series forecasting models",
+        "case studies on time series prediction accuracy assessment",
+        "impact of data preprocessing on time series forecasting accuracy"
+      ],
+      "teacher_subtasks": [
+        "time series forecasting model performance evaluation metrics",
+        "comparison of time series forecasting models accuracy",
+        "case studies on time series forecasting model evaluation",
+        "latest advancements in time series forecasting evaluation methods",
+        "robustness of time series forecasting models under different conditions"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "当前大语言模型在文本生成方面的最新进展是什么？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.38,
+      "alignment_score": 0.9731,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "recent advancements in large language models for text generation 2023",
+        "comparison of large language models for text generation techniques",
+        "applications of large language models in text generation",
+        "challenges faced by large language models in text generation",
+        "future trends in large language models for text generation"
+      ],
+      "teacher_subtasks": [
+        "recent advancements in large language models for text generation 2023",
+        "comparison of text generation techniques in large language models",
+        "applications of large language models in text generation",
+        "challenges in text generation with large language models",
+        "future trends in large language models for text generation"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "分布式机器学习如何与边缘计算结合，以提高实时数据处理能力？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.19,
+      "alignment_score": 0.9063,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "distributed machine learning edge computing real-time data processing",
+        "edge computing distributed algorithms for machine learning",
+        "case studies distributed machine learning edge computing applications",
+        "recent advancements in distributed machine learning edge computing",
+        "comparison of traditional centralized vs distributed machine learning on edge devices"
+      ],
+      "teacher_subtasks": [
+        "distributed machine learning edge computing integration real-time data processing",
+        "case studies distributed machine learning edge computing applications",
+        "comparison of distributed machine learning frameworks for edge computing",
+        "recent advancements in distributed machine learning for edge computing",
+        "challenges in real-time data processing distributed machine learning edge computing"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "联邦学习在数据隐私保护方面有哪些最新的研究进展？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 12.71,
+      "alignment_score": 0.8761,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "federated learning privacy protection techniques latest advancements 2023",
+        "comparison of federated learning privacy mechanisms effectiveness",
+        "applications of federated learning with privacy-preserving algorithms",
+        "challenges in federated learning privacy preservation",
+        "recent publications on federated learning privacy in academic journals"
+      ],
+      "teacher_subtasks": [
+        "federated learning data privacy protection recent advancements",
+        "federated learning privacy preserving techniques 2023",
+        "comparative analysis federated learning privacy methods",
+        "applications of federated learning in privacy-sensitive domains",
+        "challenges in federated learning data privacy 2023"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "针对分布式学习中的数据不平衡问题，有哪些有效的解决方案？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 10.38,
+      "alignment_score": 0.8643,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "distributed learning data imbalance solutions",
+        "methods to address class imbalance in distributed machine learning",
+        "comparison of techniques for handling imbalanced datasets in distributed systems",
+        "recent advancements in distributed learning with imbalanced data",
+        "case studies on distributed learning with imbalanced datasets"
+      ],
+      "teacher_subtasks": [
+        "distributed learning data imbalance solutions",
+        "federated learning data imbalance techniques",
+        "data imbalance in distributed machine learning case studies",
+        "recent advancements in addressing data imbalance in distributed learning",
+        "comparison of methods for data imbalance in distributed systems"
+      ],
+      "raw_output": null
+    },
+    {
+      "question": "在多机器人系统中，具身智能的协作策略有哪些值得研究的方向？",
+      "format_valid": true,
+      "subtask_count": 5,
+      "count_in_range": true,
+      "latency_sec": 11.67,
+      "alignment_score": 0.8555,
+      "style_mismatch_suspected": false,
+      "local_subtasks": [
+        "embodied intelligence collaborative strategies in multi-robot systems",
+        "comparison of embodied and non-embodied collaboration methods in robotics",
+        "applications of embodied intelligence in cooperative robotic tasks",
+        "recent advancements in embodied intelligence for robot coordination",
+        "challenges in implementing embodied intelligence in multi-agent systems"
+      ],
+      "teacher_subtasks": [
+        "embodied intelligence collaboration strategies in multi-robot systems",
+        "recent advancements in multi-robot cooperation with embodied intelligence",
+        "applications of embodied intelligence in multi-robot systems",
+        "comparative analysis of embodied intelligence strategies in multi-robot systems",
+        "challenges in implementing embodied intelligence in multi-robot collaboration"
+      ],
+      "raw_output": null
+    }
+  ]
+}

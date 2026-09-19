@@ -1,0 +1,266 @@
+/* 全局基础样式 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f5f7;
+  color: #1f2430;
+  font-family: -apple-system, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.page {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 48px 20px 80px;
+}
+
+.header {
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  font-size: 28px;
+  margin: 0 0 4px;
+}
+
+.header p {
+  margin: 0;
+  color: #6b7280;
+  font-size: 14px;
+}
+
+/* 输入区 */
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 32px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 12px 14px;
+  border: 1px solid #d8dbe0;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.input-row input:focus {
+  border-color: #4f6ef7;
+}
+
+.input-row button {
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  background: #4f6ef7;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+  white-space: nowrap;
+}
+
+.input-row button:disabled {
+  background: #a9b4e8;
+  cursor: not-allowed;
+}
+
+.input-row button:not(:disabled):hover {
+  background: #3d5aec;
+}
+
+/* 卡片通用样式 */
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.04);
+}
+
+.card h2 {
+  font-size: 16px;
+  margin: 0 0 16px;
+  color: #374151;
+}
+
+/* 执行过程时间线 */
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline li {
+  display: flex;
+  gap: 12px;
+  padding: 8px 0;
+  font-size: 14px;
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.timeline li:last-child {
+  border-bottom: none;
+}
+
+.timeline .dot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-top: 6px;
+}
+
+.dot-plan { background: #4f6ef7; }
+.dot-search { background: #9ca3af; }
+.dot-reflection-ok { background: #22c55e; }
+.dot-reflection-more { background: #f59e0b; }
+.dot-report { background: #a855f7; }
+.dot-verify { background: #06b6d4; }
+.dot-error { background: #ef4444; }
+
+.timeline .label {
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.timeline .desc {
+  color: #6b7280;
+}
+
+/* 报告正文(marked渲染出来的HTML) */
+.report-body h2 {
+  font-size: 17px;
+  margin: 20px 0 8px;
+  color: #1f2430;
+}
+
+.report-body h1 {
+  font-size: 20px;
+  margin: 0 0 12px;
+}
+
+.report-body p {
+  line-height: 1.75;
+  margin: 0 0 12px;
+  font-size: 14.5px;
+  color: #2d3340;
+}
+
+/* 引用列表 */
+.citation-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.citation-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f1f3;
+  font-size: 14px;
+}
+
+.citation-list li:last-child {
+  border-bottom: none;
+}
+
+.citation-list a {
+  color: #1f2430;
+  text-decoration: none;
+  flex: 1;
+}
+
+.citation-list a:hover {
+  text-decoration: underline;
+}
+
+.badge {
+  flex-shrink: 0;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.badge-ok {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge-fail {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.spinner {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-top-color: white;
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+  margin-right: 6px;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* 追问区 */
+.followup-list {
+  list-style: none;
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+.followup-item {
+  padding: 14px 0;
+  border-bottom: 1px solid #f0f1f3;
+}
+
+.followup-item:last-child {
+  border-bottom: none;
+}
+
+.followup-question {
+  font-weight: 600;
+  font-size: 14.5px;
+  color: #1f2430;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: #eef1ff;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.followup-answer {
+  font-size: 14.5px;
+  line-height: 1.75;
+  color: #2d3340;
+  padding: 2px 4px;
+}
+
+.followup-answer p {
+  margin: 0 0 8px;
+}
+
+.followup-thinking {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #9ca3af;
+}
+
+.spinner-dark {
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-top-color: #4f6ef7;
+}
