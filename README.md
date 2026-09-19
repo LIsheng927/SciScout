@@ -136,6 +136,16 @@ npm run dev
 
 Open the URL the frontend prints and enter a research question.
 
+**Or with Docker**
+
+```bash
+cp backend/.env.example backend/.env   # then set your own OPENAI_API_KEY
+docker compose up --build
+```
+
+Backend runs at `http://localhost:8000`, frontend at `http://localhost:3000`. The vector store
+persists in a named Docker volume across container restarts.
+
 **(Optional) Local LoRA fine-tuned model**
 
 ```bash

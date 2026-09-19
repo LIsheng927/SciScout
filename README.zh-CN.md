@@ -122,6 +122,16 @@ npm run dev
 
 浏览器打开前端显示的地址,输入研究问题即可。
 
+**或者用 Docker**
+
+```bash
+cp backend/.env.example backend/.env   # 然后把 OPENAI_API_KEY 换成你自己的
+docker compose up --build
+```
+
+后端跑在 `http://localhost:8000`,前端跑在 `http://localhost:3000`。向量库数据存在
+具名 Docker volume 里,容器重启/重建不会丢。
+
 **(可选)本地 LoRA 微调模型**
 
 ```bash

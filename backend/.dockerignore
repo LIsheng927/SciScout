@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+qdrant_data/
+models/
+data/
+scripts/
+tests/
+requirements-train.txt
